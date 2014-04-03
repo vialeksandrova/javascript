@@ -4,7 +4,7 @@ switch(user){
     case 'FIGHT':
     var strong=prompt("Are you strong - YES or NO?").toUpperCase();
     var smart=prompt("Are you smart - YES or NO?").toUpperCase();
-     if(strong===true && smart===true){
+     if(strong==='YES' && smart==='YES'){
         console.log("Victory is yours!")
      }
      else{
@@ -14,7 +14,7 @@ switch(user){
      
     case 'PAY':
     var money=prompt("Do you have money - YES or NO?").toUpperCase();
-    if(money===true){
+    if(money==='YES'){
         console.log("Great work, you win!");
     }
     else{
@@ -25,7 +25,7 @@ switch(user){
     case 'RUN':
     var fast=prompt("Are you fast - YES or NO?").toUpperCase();
     var fearful=prompt("Are you fearful - YES or NO?").toUpperCase();
-    if(fast===true || fearful===true){
+    if(fast==='YES' || fearful==='YES'){
        console.log("Bravo! You runaway from the dragon!"); 
     }
     else{
